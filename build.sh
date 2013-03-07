@@ -25,7 +25,7 @@ srv_update () {
 }
 
 copy_all () {
-    scp index.html $PDF_FILE zoran.png resume.css reset-font-grids-css $SRV_LOGIN:$SRV_PATH
+    scp index.html $PDF_FILE head.png resume.css reset-font-grids-css $SRV_LOGIN:$SRV_PATH
 }
 
 print_help () {
