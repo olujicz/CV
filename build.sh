@@ -31,34 +31,28 @@ copy_all () {
 print_help () {
     echo "Usage:"
     echo "-c    Create index and pdf."
-    echo "-u    Create index and pdf and push to server."
-    echo "-d    Push index and pdf to server."
-    echo "-a    Create all files, and push all files to server."
+    echo "-d    Deploy index and pdf to server."
+    echo "-a    Deploy all files to server."
 }
 
-case "$1" in
-    -c|--create)
-        create_index;
-        create_pdf;
-        ;;
+while getopts ":cda" opt; do
+    case "$opt" in
+        c)
+             create_index;
+             create_pdf;
+             ;;
 
-    -u|--update)
-        create_index;
-        create_pdf;
-        srv_update;
-        ;;
+        d)
+             srv_update;
+             ;;
 
-    -d|--deploy)
-        srv_update;
-        ;;
+        a)
+             copy_all;
+             ;;
 
-    -a|--all)
-        create_index;
-        create_pdf;
-        copy_all;
-        ;;
-
-    *)
-        print_help;
-        ;;
-esac
+         ?)
+             print_help;
+             exit;
+             ;;
+    esac
+done
