@@ -1,4 +1,4 @@
 CV
 ==
 
-Files for building my SV
+Files for building my CV
