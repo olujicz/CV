@@ -7,13 +7,13 @@ source build.conf
 
 # Functions
 create_index () {
-    cp themplate.html index.html
+    cp template.html index.html
     sed -i "s/%{CONTACT_FIRST_LINE}/$HTML_1/g" index.html
     sed -i "s/%{CONTACT_ADDRESS}/$ADDRESS_HTML/g" index.html
 }
 
 create_pdf () {
-    cp themplate.html pdf.html
+    cp template.html pdf.html
     sed -i "s/%{CONTACT_FIRST_LINE}/Kontakt:/g" pdf.html
     sed -i "s/%{CONTACT_ADDRESS}/$ADDRESS_PDF/g" pdf.html
     wkhtmltopdf -l pdf.html $PDF_FILE
