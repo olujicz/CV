@@ -101,7 +101,7 @@ p.enlarge span {
  color: #000 }
 .contact-info {
  margin: 7px 0 0 -106px;
- width: 157px;
+ width: 170px;
 }
 .first h2 {
  font-style: italic;
@@ -117,12 +117,27 @@ a#pdf {
  float: left;
  background: #666;
  color: white;
- padding: 6px 50px 6px 12px;
+ padding: 6px 12px 6px 12px;
  margin-bottom: 6px;
  text-decoration: none;
  border-radius: 3px;
 }
 a#pdf:hover {
+ background: #222;
+}
+
+
+a#lang {
+ display: block;
+ float: right;;
+ background: #666;
+ color: white;
+ padding: 10px 12px 6px;
+ margin: 0 5px;
+ text-decoration: none;
+ border-radius: 0 0 3px 3px;
+}
+a#lang:hover {
  background: #222;
 }
 

@@ -1,31 +1,45 @@
 #!/bin/bash
 # Check for dependency
 command -v wkhtmltopdf >/dev/null 2>&1 || { echo "I require wkhtmltopdf but it's not installed. Aborting." >&2; exit 1; }
+command -v php-cgi >/dev/null 2>&1 || { echo "I require php-cgi but it's not installed. Aborting." >&2; exit 1; }
 
 # Insert configurations
 source build.conf
 
 # Functions
+
 create_index () {
-    cp template.html index.html
-    sed -i "s/%{CONTACT_FIRST_LINE}/$HTML_1/g" index.html
-    sed -i "s/%{CONTACT_ADDRESS}/$ADDRESS_HTML/g" index.html
+    echo "Creating index.html"
+    php-cgi -q -f index.php > index.html 2> /dev/null
 }
 
-create_pdf () {
-    cp template.html pdf.html
-    sed -i "s/%{CONTACT_FIRST_LINE}/Kontakt:/g" pdf.html
-    sed -i "s/%{CONTACT_ADDRESS}/$ADDRESS_PDF/g" pdf.html
-    wkhtmltopdf -l pdf.html $PDF_FILE
-    rm pdf.html
+create_pdf (){
+    echo "Creating pdf from html file"
+    sed -i "/$LANG_BUTTON/ d" index.html
+    sed -i "s/$HTML_1/Kontakt:/g" index.html
+    sed -i "s/$ADDRESS_HTML/$ADDRESS_PDF/g" index.html
+    wkhtmltopdf -l index.html $PDF_FILE
+}
+
+create_index_en () {
+    echo "Creating index_en.html"
+    php-cgi -q -f index.php lang=en > index_en.html 2> /dev/null
+}
+
+create_pdf_en () {
+    echo "Creating pdf_en from html file."
+    sed -i "/$LANG_BUTTON_EN/ d" index_en.html
+    sed -i "s/$HTML_1_EN/Contact:/g" index_en.html
+    sed -i "s/$ADDRESS_HTML_EN/$ADDRESS_PDF_EN/g" index_en.html
+    wkhtmltopdf -l index_en.html $PDF_FILE_EN
 }
 
 srv_update () {
-    scp index.html $PDF_FILE $SRV_LOGIN:$SRV_PATH
+    scp index.php en.txt $PDF_FILE $PDF_FILE_EN $SRV_LOGIN:$SRV_PATH
 }
 
 copy_all () {
-    scp index.html $PDF_FILE head.png resume.css reset-fonts-grids.css $SRV_LOGIN:$SRV_PATH
+    scp index.php en.txt $PDF_FILE $PDF_FILE_EN head.png resume.css reset-fonts-grids.css $SRV_LOGIN:$SRV_PATH
 }
 
 print_help () {
@@ -40,6 +54,8 @@ while getopts ":cda" opt; do
         c)
              create_index;
              create_pdf;
+             create_index_en;
+             create_pdf_en;
              ;;
 
         d)

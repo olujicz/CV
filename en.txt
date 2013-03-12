@@ -1,0 +1,76 @@
+# Contact
+Novi Sad=Serbia, Novi Sad
+
+# Veštine
+Veštine=Skils
+Administracija Linux servera, instalacija, održavanje, automatizacija, monitoring...=Administraion of Linux servers, installation, mainterance, automatisation, monitoring...
+Instalacija i administracija internet stranica: Wordpress, Mediawiki...=Installation and administration of web sites: Wordpress, Mediawiki...
+Menadžment=Management
+
+# PDF Download
+Preuzmi PDF=Download PDF
+Zoran_Olujic_CV.pdf=Zoran_Olujic_CV_en.pdf
+
+# Profil
+Profil=Profile
+Veoma istrajan, precizan i sistematičan u radu. Fleksibilan i staložen u odnosu sa ljudima i uvek spreman na konstruktivan dijalog. Odgovorno i savesno pristupa obavezama i ljudima. Zainteresovan za stalno usavršavanje i napredovanje. Timski igrač.=Very persistent, systematic and precise in work. Flexible and calm in dealing with people and always ready for a constructive dialogue. Responsible and conscientious approach to commitments and people. Interested in continuous improvement and advancement. A team player.
+
+# Technical
+Tehnička znanja=Technical
+
+# Experience
+Iskustvo=Experience
+# Hookflash Inc.
+Administrator servera=Server administrator
+Administracija servera=Server administration
+Deployment automatizacija=Deployment automation
+Analitika servera, detekcija i prevencija problema=Server analytics, failure detection and prevention
+# Primatron
+Instruktor=Instructor
+Obuka polazinka u korišćenju:=Training courses in:
+MS Office paketa ( Word, Excel, PowerPoint )=MS Office ( Word, Excel, PowerPoint )
+MS Windows operativnog sistema=MS Windows OS
+Linux operativnog sistema=GNU/Linux OS
+Interneta=Internet
+# Ubuntu
+Ubuntu zajednica Srbije=Ubuntu Community of Serbia
+Administracija Web prezentacija=Web sites administration
+#CK 13
+Omladinski centar CK13, Novi Sad=CK13 Youth Center, Novi Sad
+Administrator mreže i računara=Network administrator and Computer technician
+Administracija mreže=Network administration
+Održavanje računarske opreme=Computer repairment
+
+# Education
+Obrazovanje=Education
+Fakultet Tehničih Nauka, Novi Sad=University of Novi Sad, Faculty of Technical Sciences
+Inženjerski menadžment &mdash; <strong>Ms.C. Projektni menadžment</strong> (Radi završni rad)=Engineering Management &mdash; <strong>Ms.C. Project Management</strong>
+Elektrotehnička-građevinska škola "Nikola Tesla", Zrenjanin=Electrotehnical and constracting High School "Nikola Tesla", Zrenjanin
+Elektrotehničar pogona=Engineering of Electric Drives
+
+
+# Languages
+Jezici=Languages
+Srpski - Maternji=Serbian - Native
+Engleski - Odlično poznavanje=English - Advanced
+
+# Other activities
+Ostale aktivnosti=Other activities
+# Ubuntu Community of Serbia
+Aktivan član lokalne Ubuntu zajednice.=Active member of Ubuntu Community of Serbia
+“Ubuntu Planeta” i Wiki administrator=“Ubuntu Planet” and accompanied wiki administrator
+# Svet Kompjutera
+Svet Kompjutera=Svet Kompjutera
+Autor saradnik=Associate Writer
+Autor članaka najtiražnijeg kompjuterskog časopisa u Srbiji “Svet Kompjutera” u rubrici “Laki Pingvini”.=Author of articles about open source in most popular serbian IT magazine “Svet Kompjutera”
+# Lugons
+Sekretar udruženja LUGoNS (Linux User Group of Novi Sad), 2007. i 2008.=Secretary of LUGoNS (Linux User Group of Novi Sad), 2007. and 2008.
+Aktivni učesnik u organizovanju događaja kao što su: Install Day i Barcamp.=Active in events such as Install Day and Barcamp.
+Predavanje i prezentovanje novih tehnologija na raznim događajima (BlogOpen) itd.=Holding lectures, presentations of new technologies on various events (BlogOpen) etc.
+
+# Driving license
+Vozačka dozvola=Driving license
+B kategorija=Yes
+
+# Other stuff
+danas=present
