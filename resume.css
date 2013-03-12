@@ -121,6 +121,7 @@ a#pdf {
  margin-bottom: 6px;
  text-decoration: none;
  border-radius: 3px;
+ outline: 0;
 }
 a#pdf:hover {
  background: #222;
@@ -136,6 +137,7 @@ a#lang {
  margin: 0 5px;
  text-decoration: none;
  border-radius: 0 0 3px 3px;
+ outline: 0;
 }
 a#lang:hover {
  background: #222;

@@ -98,7 +98,7 @@ else {
 
 								<div class="talent">
 									<h2><?php $translate->__('Menadžment'); ?></h2>
-									<p>Upravljanje projektima. Diplomski rad na temu upravljanja razvojem softvera Scrum metodom. </p>
+									<p><?php $translate->__('Upravljanje projektima. Diplomski rad na temu upravljanja razvojem softvera Scrum metodom.'); ?> </p>
 								</div>
 						</div>
 					</div><!--// .yui-gf -->
