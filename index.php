@@ -248,11 +248,11 @@ else {
 		</div><!--// bd -->
 
 		<div id="ft">
-			<p>Zoran Olujić &mdash; <script type="text/javascript">
+			<p><?php $translate->__('Napravio'); ?> Zoran Olujić &mdash; <script type="text/javascript">
 								<!--
 								document.write("<a href='mailto:&#111;&#108;&#117;&#106;&#105;&#99;&#122;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;'> &#111;&#108;&#117;&#106;&#105;&#99;&#122;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>")
 								// -->
-								</script>&mdash; (060) 0-896-323</p>
+								</script>&mdash; <a href="https://github.com/olujicz/CV" ><?php $translate->__('Izvorni kod CV-a'); ?></a></p>
 		</div><!--// footer -->
 
 	</div><!-- // inner -->
