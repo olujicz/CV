@@ -75,3 +75,5 @@ B kategorija=Yes
 
 # Other stuff
 danas=present
+Napravio=Created by
+Izvorni kod CV-a=Source code of CV
