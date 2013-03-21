@@ -177,6 +177,9 @@ else {
 							<h2><?php $translate->__('Fakultet Tehničih Nauka, Novi Sad'); ?></h2>
 							<h3><?php $translate->__('Inženjerski menadžment &mdash; <strong>Ms.C. Projektni menadžment</strong> (Radi završni rad)'); ?> </h3>
 						<br />
+						   <h2><?php $translate->__('Cisco Institut za Preduzetništvo, Novi Sad, FTN'); ?></h2>
+							<h3><?php $translate->__('iExec Enterprise Essentials v.3.0'); ?> - <a href="docs/Certificate_of_Completion_iExec_Zoran_Olujic.pdf"><?php $translate->__('Preuzmi PDF'); ?></a></h3>
+						<br />
 							<h2><?php $translate->__('Elektrotehnička-građevinska škola "Nikola Tesla", Zrenjanin'); ?></h2>
 							<h3><?php $translate->__('Elektrotehničar pogona'); ?></h3>
 							

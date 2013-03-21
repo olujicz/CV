@@ -46,6 +46,9 @@ Održavanje računarske opreme=Computer repairment
 Obrazovanje=Education
 Fakultet Tehničih Nauka, Novi Sad=University of Novi Sad, Faculty of Technical Sciences
 Inženjerski menadžment &mdash; <strong>Ms.C. Projektni menadžment</strong> (Radi završni rad)=Engineering Management &mdash; <strong>Ms.C. Project Management</strong>
+Cisco Institut za Preduzetništvo, Novi Sad, FTN=Cisco Entrepreneur Institute, Novi Sad, FTN
+iExec Enterprise Essentials v.3.0=iExec Enterprise Essentials v.3.0
+
 Elektrotehnička-građevinska škola "Nikola Tesla", Zrenjanin=Electrotehnical and constracting High School "Nikola Tesla", Zrenjanin
 Elektrotehničar pogona=Engineering of Electric Drives
 
