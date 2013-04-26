@@ -111,19 +111,19 @@ else {
 							<ul class="talent">
 								<li>Linux</li>
 								<li>Windows</li>
-								<li class="last">Bash</li>
+								<li class="last">Bash, Python</li>
 							</ul>
 
 							<ul class="talent">
-								<li>Git</li>
-								<li>HTML</li>
-								<li class="last">CSS</li>
+								<li>Git, svn</li>
+								<li>Amazon AWS, VMware, VBox</li>
+								<li class="last">HTML, CSS</li>
 							</ul>
 
 							<ul class="talent">
-								<li>Apache, Nginx</li>
+								<li>Apache, Nginx, Glassfish</li>
 								<li>CMS: Wordpress, Mediawiki...</li>
-								<li class="last">MS Office, Libre Office</li>
+								<li class="last">Nagios, Jabbix</li>
 							</ul>
 						</div>
 					</div><!--// .yui-gf-->
@@ -136,6 +136,14 @@ else {
 
 						<div class="yui-u">
 
+						
+							<div class="job">
+								<h2>Danulabs d.o.o.</h2>
+								<h3><?php $translate->__('Administrator servera'); ?></h3>
+								<h4>04-2013 <> <?php $translate->__('danas'); ?></h4>
+								<p> • <?php $translate->__('Administracija servera'); ?><br /> • <?php $translate->__('Deployment automatizacija'); ?> <br /> • <?php $translate->__('Analitika servera, detekcija i prevencija problema'); ?> <br /> • MySQL backup, disaster recovery</p>
+							</div>
+						
 							<div class="job">
 								<h2>Hookflash Inc.</h2>
 								<h3><?php $translate->__('Administrator servera'); ?></h3>
