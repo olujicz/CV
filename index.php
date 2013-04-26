@@ -123,7 +123,7 @@ else {
 							<ul class="talent">
 								<li>Apache, Nginx, Glassfish</li>
 								<li>CMS: Wordpress, Mediawiki...</li>
-								<li class="last">Nagios, Jabbix</li>
+								<li class="last">Nagios, Zabbix</li>
 							</ul>
 						</div>
 					</div><!--// .yui-gf-->
