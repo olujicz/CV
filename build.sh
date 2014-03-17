@@ -50,6 +50,7 @@ print_help () {
 }
 
 while getopts ":cda" opt; do
+    options_found=1
     case "$opt" in
         c)
              create_index;
@@ -66,9 +67,11 @@ while getopts ":cda" opt; do
              copy_all;
              ;;
 
-         ?)
+        \?)
              print_help;
-             exit;
              ;;
     esac
 done
+if ((!options_found)); then
+    print_help;
+fi

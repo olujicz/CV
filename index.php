@@ -117,17 +117,16 @@ else {
 							<ul class="talent">
 								<li>Git, svn</li>
 								<li>Amazon AWS, VMware, VBox</li>
-								<li class="last">HTML, CSS</li>
+								<li class="last">Django, HTML, CSS</li>
 							</ul>
 
 							<ul class="talent">
-								<li>Apache, Nginx, Glassfish</li>
+								<li>Apache, Nginx, Tomcat</li>
 								<li>CMS: Wordpress, Mediawiki...</li>
 								<li class="last">Nagios, Zabbix</li>
 							</ul>
 						</div>
 					</div><!--// .yui-gf-->
-<br /><br />
 					<div class="yui-gf">
 	
 						<div class="yui-u first">
@@ -141,7 +140,7 @@ else {
 								<h2>Danulabs d.o.o.</h2>
 								<h3><?php $translate->__('Administrator servera'); ?></h3>
 								<h4>04-2013 <> <?php $translate->__('danas'); ?></h4>
-								<p> • <?php $translate->__('Administracija servera'); ?><br /> • <?php $translate->__('Deployment automatizacija'); ?> <br /> • <?php $translate->__('Analitika servera, detekcija i prevencija problema'); ?> <br /> • MySQL backup, disaster recovery</p>
+								<p> • <?php $translate->__('Administracija servera'); ?><br /> • <?php $translate->__('Administracija mreže'); ?><br /> • <?php $translate->__('Deployment automatizacija'); ?> <br /> • <?php $translate->__('Analitika servera, detekcija i prevencija problema'); ?> <br /> • MySQL replication, backup, disaster recovery</p>
 							</div>
 						
 							<div class="job">
@@ -183,7 +182,7 @@ else {
 						</div>
 						<div class="yui-u">
 							<h2><?php $translate->__('Fakultet Tehničih Nauka, Novi Sad'); ?></h2>
-							<h3><?php $translate->__('Inženjerski menadžment &mdash; <strong>Ms.C. Projektni menadžment</strong> (Radi završni rad)'); ?> </h3>
+							<h3><?php $translate->__('Inženjerski menadžment &mdash; <strong>Ms.C. Projektni menadžment</strong>'); ?> </h3>
 						<br />
 						   <h2><?php $translate->__('Cisco Institut za Preduzetništvo, Novi Sad, FTN'); ?></h2>
 							<h3><?php $translate->__('iExec Enterprise Essentials v.3.0'); ?> - <a href="docs/Certificate_of_Completion_iExec_Zoran_Olujic.pdf"><?php $translate->__('Preuzmi PDF'); ?></a></h3>

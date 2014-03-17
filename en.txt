@@ -24,6 +24,7 @@ Iskustvo=Experience
 # Hookflash Inc.
 Administrator servera=Server administrator
 Administracija servera=Server administration
+Administracija mreže=Network administration
 Deployment automatizacija=Deployment automation
 Analitika servera, detekcija i prevencija problema=Server analytics, failure detection and prevention
 # Primatron
@@ -45,7 +46,7 @@ Održavanje računarske opreme=Computer repairment
 # Education
 Obrazovanje=Education
 Fakultet Tehničih Nauka, Novi Sad=University of Novi Sad, Faculty of Technical Sciences
-Inženjerski menadžment &mdash; <strong>Ms.C. Projektni menadžment</strong> (Radi završni rad)=Engineering Management &mdash; <strong>Ms.C. Project Management</strong>
+Inženjerski menadžment &mdash; <strong>Ms.C. Projektni menadžment</strong>=Engineering Management &mdash; <strong>Ms.C. Project Management</strong>
 Cisco Institut za Preduzetništvo, Novi Sad, FTN=Cisco Entrepreneur Institute, Novi Sad, FTN
 iExec Enterprise Essentials v.3.0=iExec Enterprise Essentials v.3.0
 
