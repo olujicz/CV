@@ -18,7 +18,7 @@ if(isset($_GET['lang']))
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 
-	<link rel="stylesheet" type="text/css" href="reset-fonts-grids.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="reset-fonts-grids.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="resume.css" media="all" />
 
 </head>
@@ -26,7 +26,7 @@ if(isset($_GET['lang']))
 
 
 
-             
+
 <div id="doc2" class="yui-t7">
 <?php
 
@@ -37,7 +37,7 @@ else {
 ?>
 
 	<div id="inner">
-	
+
 		<div id="hd">
 			<div class="yui-gc">
 				<div class="yui-u first">
@@ -75,7 +75,7 @@ else {
 						<div class="yui-u">
 							<p class="enlarge">
 								<?php $translate->__('Veoma istrajan, precizan i sistematičan u radu. Fleksibilan i staložen u odnosu sa ljudima i uvek spreman na konstruktivan dijalog. Odgovorno i savesno pristupa obavezama i ljudima. Zainteresovan za stalno usavršavanje i napredovanje. Timski igrač.'); ?>
- 
+
 							</p>
 						</div>
 					</div><!--// .yui-gf -->
@@ -128,21 +128,34 @@ else {
 						</div>
 					</div><!--// .yui-gf-->
 					<div class="yui-gf">
-	
+
 						<div class="yui-u first">
 							<h2><?php $translate->__('Iskustvo'); ?></h2>
 						</div><!--// .yui-u -->
 
 						<div class="yui-u">
 
-						
+                            <div class="job">
+                                <h2>Eton Digital Ltd.</h2>
+                                <h3>System administrator</h3>
+                                <h4>05-2015 <> <?php $translate->__('danas'); ?></h4>
+								<p> • <?php $translate->__('Administracija servera'); ?><br /> • <?php $translate->__('Deployment automatizacija'); ?> <br /> • <?php $translate->__('Analitika servera, detekcija i prevencija problema'); ?> <br /> • Load balancing</p>
+                            </div>
+
+                            <div class="job">
+                                <h2>DEVTECH</h2>
+                                <h3>System administrator</h3>
+                                <h4>05-2014 <> 05-2015</h4>
+                                <p> • Virtualization & System Administrator<br /> •  Parallels Business Automation<br /> •  Parallels Operations Automation <br /> • Parallels Virtuozzo Containers <br /> • Flexiant Cloud Orchestrator <br /> • Maintenance and sandbox setup for developers</p>
+                            </div>
+
 							<div class="job">
 								<h2>Danulabs d.o.o.</h2>
 								<h3><?php $translate->__('Administrator servera'); ?></h3>
-								<h4>04-2013 <> <?php $translate->__('danas'); ?></h4>
+								<h4>04-2013 <> 05-2014</h4>
 								<p> • <?php $translate->__('Administracija servera'); ?><br /> • <?php $translate->__('Administracija mreže'); ?><br /> • <?php $translate->__('Deployment automatizacija'); ?> <br /> • <?php $translate->__('Analitika servera, detekcija i prevencija problema'); ?> <br /> • MySQL replication, backup, disaster recovery</p>
 							</div>
-						
+
 							<div class="job">
 								<h2>Hookflash Inc.</h2>
 								<h3><?php $translate->__('Administrator servera'); ?></h3>
@@ -165,13 +178,6 @@ else {
 							</div>
 
 
-							<div class="job last">
-								<h2><?php $translate->__('Omladinski centar CK13, Novi Sad'); ?></h2>
-								<h3><?php $translate->__('Administrator mreže i računara'); ?></h3>
-								<h4>03-2009 <> 11-2009</h4>
-								<p>• <?php $translate->__('Administracija mreže'); ?> <br /> • <?php $translate->__('Održavanje računarske opreme'); ?></p>
-							</div>
-
 						</div><!--// .yui-u -->
 					</div><!--// .yui-gf -->
 
@@ -189,7 +195,7 @@ else {
 						<br />
 							<h2><?php $translate->__('Elektrotehnička-građevinska škola "Nikola Tesla", Zrenjanin'); ?></h2>
 							<h3><?php $translate->__('Elektrotehničar pogona'); ?></h3>
-							
+
 
 						</div>
 					</div><!--// .yui-gf -->
@@ -210,7 +216,7 @@ else {
 
 
 					<div class="yui-gf">
-	
+
 						<div class="yui-u first">
 							<h2><?php $translate->__('Ostale aktivnosti'); ?></h2>
 						</div><!--// .yui-u -->
@@ -239,18 +245,6 @@ else {
 
 						</div><!--// .yui-u -->
 					</div><!--// .yui-gf -->
-
-
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2><?php $translate->__('Vozačka dozvola'); ?></h2>
-						</div>
-						<div class="yui-u">
-								<br /><p><?php $translate->__('B kategorija'); ?></p>
-						</div>
-					</div><!--// .yui-gf-->
-
-
 
 
 				</div><!--// .yui-b -->

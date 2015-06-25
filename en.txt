@@ -2,11 +2,11 @@
 Novi Sad=Serbia, Novi Sad
 
 # Veštine
-Veštine=Skils
-Administracija Linux servera, instalacija, održavanje, automatizacija, monitoring...=Administraion of Linux servers, installation, mainterance, automatisation, monitoring...
+Veštine=Skills
+Administracija Linux servera, instalacija, održavanje, automatizacija, monitoring...=Administration of Linux servers, installation, mainterance, automatisation, monitoring...
 Instalacija i administracija internet stranica: Wordpress, Mediawiki...=Installation and administration of web sites: Wordpress, Mediawiki...
 Menadžment=Management
-Upravljanje projektima. Diplomski rad na temu upravljanja razvojem softvera Scrum metodom.=Project management. Master Thesis on Scrum software development. 
+Upravljanje projektima. Diplomski rad na temu upravljanja razvojem softvera Scrum metodom.=Project management. Master Thesis on Scrum software development.
 
 # PDF Download
 Preuzmi PDF=Download PDF
